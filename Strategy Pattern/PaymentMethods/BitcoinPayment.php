@@ -1,5 +1,7 @@
 <?php
 
+namespace PaymentMethods;
+
 class BitcoinPayment implements PaymentMethod
 {
 

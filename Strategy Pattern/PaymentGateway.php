@@ -1,5 +1,7 @@
 <?php
 
+use PaymentMethods\PaymentMethod;
+
 class PaymentGateway
 {
     private PaymentMethod $paymentMethod;

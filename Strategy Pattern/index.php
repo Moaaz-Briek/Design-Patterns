@@ -1,4 +1,9 @@
 <?php
+
+use PaymentMethods\BitcoinPayment;
+use PaymentMethods\CreditCardPayment;
+use PaymentMethods\PayPalPayment;
+
 include "autoload.php";
 $creditCard = new CreditCardPayment();
 $gateway = new PaymentGateway($creditCard);
