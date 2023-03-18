@@ -59,4 +59,4 @@ We then define a `getAnimal()` function that takes an animalType parameter and r
 
 We can then use the `getAnimal()` function to get either a Dog or a NullAnimal object, depending on the animalType passed. If we call the `makeSound()` method on the Dog object, it echoes "Woof!". If we call the makeSound() method on the NullAnimal object, nothing happens. This is useful in cases where we need to handle null objects but don't want to clutter our code with a lot of null checking.
 
-### We can use both Null Object design pattern and the Simple Factory pattern
+### In this Example, we can use both Null Object design pattern and Simple Factory pattern.
