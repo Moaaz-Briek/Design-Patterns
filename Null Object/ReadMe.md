@@ -58,3 +58,5 @@ In this example, we define an Animal interface with a method `makeSound()`. We h
 We then define a `getAnimal()` function that takes an animalType parameter and returns an Animal object. If the animalType is "dog", it returns a Dog object. If it's anything else, it returns a NullAnimal object.
 
 We can then use the `getAnimal()` function to get either a Dog or a NullAnimal object, depending on the animalType passed. If we call the `makeSound()` method on the Dog object, it echoes "Woof!". If we call the makeSound() method on the NullAnimal object, nothing happens. This is useful in cases where we need to handle null objects but don't want to clutter our code with a lot of null checking.
+
+### We can use both Null Object design pattern and the Simple Factory pattern
