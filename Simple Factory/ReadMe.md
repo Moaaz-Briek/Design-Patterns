@@ -1,8 +1,8 @@
-The Simple Factory is a design pattern that is used to create objects of different types with a common interface using a single factory method.
+## The Simple Factory is a design pattern that is used to create objects of different types with a common interface using a single factory method.
 
-The Simple Factory provides a simplified interface for creating objects without exposing the complexities of the object creation process. It is a static method that creates an object of the requested type and returns it to the client.
+It provides a simplified interface for creating objects without exposing the complexities of the object creation process. It is a static method that creates an object of the requested type and returns it to the client.
 
-The Simple Factory pattern is useful when the creation logic is simple and does not require multiple classes or complex inheritance.
+Also, is useful when the creation logic is simple and does not require multiple classes or complex inheritance.
 
 <h3>Real examples of Simple Factory in Software Development Process:</h3>
 
